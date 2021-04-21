@@ -1,0 +1,27 @@
+<section class="section-movies-box">
+
+    <div class="section-div-movies-header">
+        <a href="/">
+            < < < </a>
+                <h1>Cinema Ironhack</h1>
+                <p>Click on the movie to check the showtimes!</p>
+    </div>
+
+    <div class="section-div-movies-box">
+        {{#each moviesFromDB}}
+
+        <div class="section-div-movies">
+            <div class="section-div-movies-img-box">
+                <img src="{{image}}" alt="">
+            </div>
+
+            <div class="section-div-movies-h1-box">
+                <h1>{{title}}</h1>
+            </div>
+            <a href="/movies/{{id}}">See More</a>
+
+        </div>
+        {{/each}}
+
+    </div>
+</section

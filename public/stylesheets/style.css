@@ -1,0 +1,186 @@
+* {
+margin: 0;
+}
+
+.body-section-background {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(/images/cinema.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-h1-btn-box {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.section-h1-btn{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.section-h1-btn h1{
+  color: white;
+  font-size: 130px;
+  margin: 0;
+}
+
+.section-h1-btn button{
+  margin-top: 20px;
+  border: 1.8px solid #D41855;
+  border-radius: 45px;
+  padding: 20px 45px;
+  box-shadow: 1px 1px black;
+  outline:none;
+}
+
+
+.section-h1-btn a {
+  text-decoration: none;
+  color: #D41855;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+
+/* MOVIES-LIST */
+
+.section-div-movies-header {
+  color: white;
+  background-image: url("../images/cinema-copy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 3px solid black;
+}
+
+.section-div-movies-header a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  margin-left: 30px;
+  text-shadow: 2px 2px black;
+}
+
+.section-div-movies-header h1 {
+  font-size: 100px;
+  text-align: end;
+  margin-right: 30px;
+  text-shadow: 2px 2px black;
+}
+
+.section-div-movies-header p {
+  text-align: end;
+  margin-right: 30px;
+  text-shadow: 2px 2px black;
+  margin-bottom: 30px;
+}
+
+
+.section-div-movies-box{
+  margin: 40px 0;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.section-div-movies {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.section-div-movies img {
+  height: 300px;
+  width: 200px;
+}
+
+.section-div-movies-img-box {
+  display: flex;
+  justify-content: center;
+  width: 351px;
+  background-image: url(../images/images4.jpg);
+  background-size: contain;
+  border-top: 1px solid black;
+}
+
+.section-div-movies-h1-box {
+  display: flex;
+  justify-content: center;
+  width: 351px;
+  background-color: #D41855;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.section-div-movies h1 {
+  padding: 20px 0 ;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.section-div-movies a {
+  margin-top: 20px;
+  border: 1.8px solid #D41855;
+  border-radius: 20px;
+  padding: 10px 20px;
+  outline:none;
+  text-decoration: none;
+  color: #D41855;
+  background-color: white;
+}
+
+.section-div-movies a:hover {
+color: white;
+background-color: #D41855;
+}
+
+
+/* MOVIE-DETAILS */
+
+
+.article-movie-box {
+  margin-top: 40px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  width: 1400px;
+  margin-left: 65px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.article-movie-box div img {
+  padding: 50px;
+  border-right: 3px solid #D41855;
+  background-image: url(../images/images4.jpg);
+  background-size: contain;
+
+}
+
+.article-movie-text-box h1 {
+  padding: 40px;
+  font-size: 40px;
+  background-color: #D41855;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.article-movie-text-box p {
+  font-size: 20px;
+  padding: 10px;
+}
+
