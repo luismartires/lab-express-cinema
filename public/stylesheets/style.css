@@ -32,10 +32,9 @@ margin: 0;
 
 .section-h1-btn button{
   margin-top: 20px;
-  border: 1.8px solid #D41855;
+  border: 2px solid #D41855;
   border-radius: 45px;
   padding: 20px 45px;
-  box-shadow: 1px 1px black;
   outline:none;
 }
 
@@ -48,8 +47,8 @@ margin: 0;
 }
 
 
-
 /* MOVIES-LIST */
+
 
 .section-div-movies-header {
   color: white;
@@ -182,5 +181,20 @@ background-color: #D41855;
 .article-movie-text-box p {
   font-size: 20px;
   padding: 10px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  font-size: 10px;
+  font-family: Dancing Script;
+  justify-content: flex-end;
+  padding: 5px 10px 5px 0;
+}
+
+.contacts img {
+  height: 30px;
 }
 
